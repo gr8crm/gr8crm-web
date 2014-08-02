@@ -1,10 +1,17 @@
 = Create a web site using GR8 CRM plugins
 Göran Ehrsson, Technipelago AB <goran@technipelago.se>
 v0.2, 2014-08-03
+:description: Tutorial - Creating a public web site with GR8 CRM plugins
+:keywords: groovy, grails, crm, gr8crm, documentation
 :toc:
-:imagesdir: images
+:numbered:
 :icons: font
-:homepage: http://gr8crm.github.io/
+:imagesdir: ./images
+:source-highlighter: prettify
+:homepage: http://gr8crm.github.io
+:gr8crm: GR8 CRM
+:gr8source: https://github.com/gr8crm/gr8crm-web
+:license: The *gr8crm-web* demo application is licensed with http://www.apache.org/licenses/LICENSE-2.0.html[Apache License version 2.0]
 
 This guide describes how you can use GR8 CRM Grails plugins to develop a simple web site with content authoring support.
 
