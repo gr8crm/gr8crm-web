@@ -1,0 +1,17 @@
+# Ignore Intellij IDEA files
+/.idea
+/*.iml
+
+# Ignore Gradle files
+/.gradle
+build.gradle
+
+# Ignore build artifacts
+/target/
+
+/0/
+
+/docs/*.html
+
+stacktrace.log
+.DS_Store

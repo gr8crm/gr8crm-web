@@ -1,0 +1,13 @@
+*GR8 CRM* "Great Customer Relationship Management" is the name of a suite of plugins that help developers write customer relationship
+oriented applications using the open source web application framework *Grails* by *Pivotal Inc.*
+
+The GR8 CRM "ecosystem" currently contains over 40 open source plugins for use with Grails. Most of them were developed as part of some kind of
+enterprise application managing customers, projects, tasks, documents, etc.
+
+Each plugin contains functionality that supports a specific problem domain. For example the `crm-task` plugin contains functionality
+for scheduling tasks to be performed by people typically displayed in to-do lists or calendars.
+The `crm-task` plugin focuses on that specific domain and does not contain features for managing customers, projects or any other non-task related features.
+
+Each GR8 CRM plugin was developed with this separation-of-concern philosophy. This makes it easy to develop a Grails application
+with just the functionality that is needed by assembling a set of GR8 CRM plugins covering they required features. No more, no less.
+The time is takes to develop an application can be heavily reduced by the use of pre-defined standard plugins.
