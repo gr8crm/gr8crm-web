@@ -403,12 +403,16 @@ The +r+ prefix is for *resources* and number +1+ is the *ID* of our tenant where
 
 '''
 
-This concludes our first part of this guide. We now have a Grails application that can serve as a pubic facing web site.
+This concludes our first part of this guide. We now have a Grails application that can serve as a public facing web site.
 It has built-in content editing features, including image uploads. You can add HTML pages and images in src/templates/crm/website
 that will be imported when the application starts. Or you can configure a persistent database in DataSource.groovy and start
 creating pages manually in the rich text editor.
 
 // In the link:blog-setup.html[next part] we will add the +crm-blog+ plugin to our application and start adding blog posts to our web site.
+
+== Source
+
+A sample application that was created by following this tutorial can be found at https://github.com/gr8crm/gr8crm-web
 
 == References
 
