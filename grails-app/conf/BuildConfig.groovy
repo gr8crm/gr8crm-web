@@ -1,5 +1,7 @@
 grails.servlet.version = "3.0"
-grails.project.work.dir = "target"
+grails.project.class.dir = "target/classes"
+grails.project.test.class.dir = "target/test-classes"
+grails.project.test.reports.dir = "target/test-reports"
 grails.project.target.level = 1.6
 grails.project.source.level = 1.6
 //grails.project.war.file = "target/${appName}-${appVersion}.war"
@@ -37,6 +39,7 @@ grails.project.dependency.resolution = {
 
         compile ":crm-security-shiro:2.0.0"
         compile ":crm-i18n:2.0.0"
-        compile ":crm-content-ui:2.0.0"
+        compile ":crm-content:2.0.2"
+        compile ":crm-content-ui:2.0.1"
     }
 }
