@@ -1,6 +1,6 @@
 class BootStrap {
 
-    def navigationService
+    def grailsNavigation
     def crmAccountService
     def crmSecurityService
     def crmContentService
@@ -8,9 +8,12 @@ class BootStrap {
 
     def init = { servletContext ->
 
-        navigationService.registerItem('main',
-                [controller: 'crmFolder', action: 'list', title: 'crmContent.index.label', order: 20])
-        navigationService.updated()
+        // Add some items to the main horizontal menu
+        grailsNavigation.registerNavigation({
+            main {
+                crmFolder controller: 'crmFolder', action: 'list', title: 'crmContent.index.label', order: 20
+            }
+        });
 
         def admin = crmSecurityService.createUser([username: "admin", password: "admin",
                 email: "firstname.lastname@email.com", name: "Site Admin", enabled: true])
